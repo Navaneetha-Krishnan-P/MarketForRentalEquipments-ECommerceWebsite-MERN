@@ -1,0 +1,8 @@
+.userinfo{
+    text-align: center;
+}
+.error {
+    font-style: italic;
+    font-size: small;
+    color: red;
+}

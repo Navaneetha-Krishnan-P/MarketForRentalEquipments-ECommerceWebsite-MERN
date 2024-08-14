@@ -1,0 +1,12 @@
+
+
+.addproduct {
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.productbutton a .btn {
+    margin-left: 20px;
+}

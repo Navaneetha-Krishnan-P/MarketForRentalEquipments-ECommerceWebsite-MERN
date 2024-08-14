@@ -1,0 +1,41 @@
+.image {
+    max-width: 100%;
+    max-height: 100vh;
+    height: 200;
+    width: 300;
+    padding: 20px;
+} 
+
+.bookbutton{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cards .card{
+    background-color: whitesmoke;
+    border: none;
+    border-radius: 20px;
+    margin: 50px 0px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+}
+
+.cards-container {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; 
+}
+
+
+
+
+

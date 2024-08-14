@@ -1,0 +1,66 @@
+.userinfo {
+    text-align: center;
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+input {
+    border: solid 1px #ced4da;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.userheading {
+    color: #495057;
+}
+
+.form-error {
+    color: red;
+    font-style: italic;
+    font-size: small;
+}
+
+.login {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 20px;
+}
+
+.error {
+    font-style: italic;
+    font-size: small;
+    color: red;
+}
+
+.formstyle {
+    border: 1px solid #ced4da;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.buttongroup .btn {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+    .userinfo {
+        padding: 10px;
+    }
+
+    .formstyle {
+        padding: 10px;
+    }
+
+    .buttongroup .btn {
+        padding: 8px;
+    }
+}

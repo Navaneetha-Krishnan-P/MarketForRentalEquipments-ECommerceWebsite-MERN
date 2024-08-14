@@ -1,0 +1,13 @@
+.homecard{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: space-evenly;
+    align-items: center;
+    column-gap: 50px;
+    margin: 0px 25px;
+}
+@media (max-width: 768px) {
+    .homecard {
+        grid-template-columns: 1fr;
+    }
+}

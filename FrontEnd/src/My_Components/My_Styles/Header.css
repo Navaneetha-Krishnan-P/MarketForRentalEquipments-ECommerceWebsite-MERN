@@ -1,0 +1,35 @@
+.for_flex {
+    display: flex;
+    justify-content: space-between;
+  }
+  .for_flex .btn {
+    margin-top: 20px;
+  }
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  .dropdown-content {
+    border-radius: 15px;
+    display: none;
+    color: black;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+  }
+  .dropdown-content p {
+    text-align: center;
+    margin: 0;
+  }
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .logoutbutton .btn{
+    margin-bottom: 10px;
+  }
+  
