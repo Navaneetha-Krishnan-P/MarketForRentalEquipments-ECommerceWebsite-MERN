@@ -10,7 +10,7 @@ const ProductDetails = require("./models/productsSchema");
 
 const app = express();
 app.use(express.json());
-app.use(cors());
+app.use(cors({origin:["https://market-for-rental-equipments-e-commerce-website-mern-v5yl.vercel.app"]}));
 app.use(parser.json());
 
 
