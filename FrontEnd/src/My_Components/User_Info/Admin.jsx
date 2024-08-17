@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import axios from 'axios';
 import { useFormik } from 'formik';
 
-let server = 'https://marketforrentalequipments-backend-1.onrender.com';
+let server = 'https://market-for-rental-equipments-e-commerce-website-mern.vercel.app';
 
 const Admin = ({ setAdminShow }) => {
     const [adminLogin, setAdminLogin] = useState(false);
