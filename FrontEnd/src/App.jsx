@@ -24,7 +24,7 @@ import { Booknow } from "./My_Components/Webpage/Booknow";
 import Ender from "./My_Components/Webpage/Ender";
 import { Text } from "./My_Components/Webpage/Text";
 
-let server = 'https://marketforrentalequipments-backend-1.onrender.com';
+let server = 'https://market-for-rental-equipments-e-commerce-website-mern.vercel.app';
 
 function App() {
   const [allproducts, setAllproducts] = useState([]);
