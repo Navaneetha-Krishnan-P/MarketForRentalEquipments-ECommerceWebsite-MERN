@@ -10,7 +10,7 @@ const ProductDetails = require("./models/productsSchema");
 
 const app = express();
 app.use(express.json());
-app.use(cors({origin:["https://market-for-rental-equipments-front-end-isly.vercel.app"]}));
+app.use(cors());
 app.use(parser.json());
 
 
