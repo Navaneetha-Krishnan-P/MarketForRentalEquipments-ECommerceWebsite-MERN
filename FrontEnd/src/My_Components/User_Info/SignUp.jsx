@@ -4,7 +4,7 @@ import axios from "axios";
 import { useFormik } from "formik";
 import "../My_Styles/LogIn.css";
 
-const server = 'https://marketforrentalequipments-backend-1.onrender.com';
+const server = 'https://market-for-rental-equipments-e-commerce-website-mern.vercel.app/';
 
 export const SignUp = () => {
     const [signupShow, setSignupShow] = useState(false);
