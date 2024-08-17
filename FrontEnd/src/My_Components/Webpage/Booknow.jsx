@@ -3,7 +3,7 @@ import { useLocation, useNavigate } from 'react-router-dom';
 import { useFormik } from 'formik';
 import axios from 'axios';
 
-let server = 'https://marketforrentalequipments-backend-1.onrender.com';
+let server = 'https://market-for-rental-equipments-e-commerce-website-mern.vercel.app';
 
 export const Booknow = () => {
   const location = useLocation();
